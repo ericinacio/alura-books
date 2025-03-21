@@ -1,0 +1,102 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    color: var(--color-white);
+    background: var(--color-gradient);
+    text-align: center;
+    gap: 0.875rem;
+    padding: 5rem 2rem;
+}
+.banner__title {
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+.banner__text {
+    font-weight: 500;
+}
+.banner__input {
+    color: var(--color-white);
+    background: transparent;
+    padding: 1rem;
+    border: 0.063rem solid var(--color-white);
+    border-radius: 2rem;
+}
+.banner__input::placeholder {
+    color: var(--color-white);
+    background: url('../../assets/search.svg') no-repeat center left 2rem;
+    text-align: center;
+}
+.banner__input:focus {
+    outline: 0.063rem solid var(--color-white);
+    background: var(--color-quaternary);
+}
+
+@media screen and (max-width: 375px) {
+    .banner__input::placeholder {
+        background-position: 1rem;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .banner__input::placeholder {
+        background-position: 4.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner {
+        align-items: center;
+    }
+    .banner__input {
+        width: 70vw;
+    }
+    .banner__input::placeholder {
+        background-position: 9.5rem;
+        background-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .banner {
+        width: 95vw;
+        gap: 0;
+        padding: 7rem 2rem;
+    }
+    .banner__title {
+        font-size: 2.25rem;
+    }
+    .banner__input {
+        margin-top: 2rem;
+        width: 40vw;
+        font-size: 1rem;
+        padding: 1.2rem;
+    }
+    .banner__input::placeholder {
+        background-position: 4rem;
+        background-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .banner__input::placeholder {
+        background-position: 7rem;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .banner__input::placeholder {
+        background-position: 7.5rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .banner__input::placeholder {
+        background-position: 8rem;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .banner__input::placeholder {
+        background-position: 12rem;
+    }
+}

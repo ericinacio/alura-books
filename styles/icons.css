@@ -1,0 +1,26 @@
+.icons__box {
+    display: flex;
+    gap: 1rem;
+    -webkit-user-select: none;  /* Chrome / Safari */
+    -moz-user-select: none;     /* Firefox */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;
+}
+.icons {
+    font-family: 'Material Symbols Outlined';
+    display: inline-block;
+    transition: all 200ms;
+    font-variation-settings: 'wght' 500;
+}
+.icons:hover {
+    font-variation-settings: 'FILL' 1, 'wght' 500;
+}
+.icons:active {
+    transform: scale(1.5);
+}
+
+@media screen and (min-width: 1024px) {
+    .icons__box {
+        gap: 0;
+    }
+}
