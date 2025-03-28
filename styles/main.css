@@ -1,14 +1,10 @@
-@import url('./main/banner.css');
-@import url('./main/carousel.css');
-@import url('./main/card.css');
-@import url('./main/topics.css');
-@import url('./main/contact.css');
+@import url("./main/banner.css");
+@import url("./main/carousel.css");
+@import url("./main/card.css");
+@import url("./main/topics.css");
+@import url("./main/contact.css");
 /*************************************************/
-main {
-    width: 100vw;
-}
-
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 64rem) {
     main {
         display: flex;
         flex-direction: column;

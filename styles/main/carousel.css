@@ -1,12 +1,10 @@
 .carousel {
-    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 .carousel__title {
-    width: 100vw;
     background: var(--color-white);
     color: var(--color-secondary);
     font-size: 1.125rem;
@@ -16,12 +14,11 @@
     text-align: center;
 }
 .carousel__box {
-    width: 100vw;
     --swiper-theme-color: var(--color-primary) !important;
     padding: 2rem 0 1rem 0;
-    -webkit-user-select: none;  /* Chrome / Safari */
-    -moz-user-select: none;     /* Firefox */
-    -ms-user-select: none;      /* IE 10+ */
+    -webkit-user-select: none; /* Chrome / Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE 10+ */
     user-select: none;
 }
 .carousel__pagination {
@@ -31,13 +28,12 @@
     z-index: -1 !important;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 64rem) {
     .carousel__title {
         font-size: 1.625rem;
         padding: 1.5rem 0;
     }
     .carousel__box {
-        width: 70vw;
         padding: 5rem 0 5rem 0;
     }
     .carousel__pagination {

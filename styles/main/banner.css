@@ -23,7 +23,7 @@
 }
 .banner__input::placeholder {
     color: var(--color-white);
-    background: url('../../assets/search.svg') no-repeat center left 2rem;
+    background: url("../../assets/search.svg") no-repeat center left 2rem;
     text-align: center;
 }
 .banner__input:focus {
@@ -31,24 +31,21 @@
     background: var(--color-quaternary);
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 23.438rem) {
     .banner__input::placeholder {
         background-position: 1rem;
     }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 30rem) {
     .banner__input::placeholder {
         background-position: 4.5rem;
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48rem) {
     .banner {
         align-items: center;
-    }
-    .banner__input {
-        width: 70vw;
     }
     .banner__input::placeholder {
         background-position: 9.5rem;
@@ -56,9 +53,8 @@
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 64rem) {
     .banner {
-        width: 95vw;
         gap: 0;
         padding: 7rem 2rem;
     }
@@ -67,7 +63,6 @@
     }
     .banner__input {
         margin-top: 2rem;
-        width: 40vw;
         font-size: 1rem;
         padding: 1.2rem;
     }
@@ -77,25 +72,25 @@
     }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 80rem) {
     .banner__input::placeholder {
         background-position: 7rem;
     }
 }
 
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 85.375rem) {
     .banner__input::placeholder {
         background-position: 7.5rem;
     }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 90rem) {
     .banner__input::placeholder {
         background-position: 8rem;
     }
 }
 
-@media screen and (min-width: 1728px) {
+@media screen and (min-width: 108rem) {
     .banner__input::placeholder {
         background-position: 12rem;
     }

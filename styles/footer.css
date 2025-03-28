@@ -11,7 +11,7 @@ footer {
     display: none;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 64rem) {
     footer {
         display: flex;
         justify-content: space-between;
@@ -40,7 +40,6 @@ footer {
     }
     .footerLinks__link {
         color: var(--color-black);
-        width: 14rem;
         display: flex;
         align-items: center;
         gap: 0.5rem;

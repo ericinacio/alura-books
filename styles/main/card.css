@@ -5,7 +5,6 @@
 }
 .card__content {
     display: flex;
-    width: 80%;
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
@@ -28,11 +27,9 @@
 .card__subtitle {
     color: var(--color-secondary);
     font-weight: 700;
-    width: 95%;
 }
 .card__text {
     font-size: 0.875rem;
-    width: 80%;
 }
 .card__icons {
     color: var(--color-primary);
@@ -47,7 +44,7 @@
 }
 .card__star {
     color: var(--color-secondary);
-    font-variation-settings: 'FILL' 1, 'wght' 500;
+    font-variation-settings: "FILL" 1, "wght" 500;
 }
 .card__image {
     width: 9rem;
@@ -58,7 +55,6 @@
     font-weight: 700;
     text-decoration: none;
     padding: 1rem;
-    width: 78%;
     text-align: center;
     transition: all 200ms;
 }
@@ -69,9 +65,8 @@
     transform: scale(1.1);
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 64rem) {
     .card {
-        width: 65vw;
         padding: 2rem 0 3rem 0;
     }
     .card__box {
